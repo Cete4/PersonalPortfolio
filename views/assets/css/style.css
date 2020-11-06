@@ -15,11 +15,19 @@ body {
   padding-bottom: 3rem; /* Footer height */
 }
 
+.jumbotron {
+  border-radius: 5px;
+}
+
+.lead {
+  text-align: center;
+}
+
 #footer {
   opacity: 0.8;
   background-color: #273b4d;
   size: 10px;
-  color: antiquewhite;
+  color: white;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -29,6 +37,7 @@ body {
 
 /* Style all font awesome icons */
 .fa {
+  color: white;
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -41,7 +50,7 @@ body {
   opacity: 1;
 }
 
-/* Set a specific color for each brand */
+/* Set a specific color for each brand after some different looks they look better with a simple universal color */
 
 /* Facebook */
 .fa-linkedin {
@@ -55,5 +64,9 @@ body {
 
 /* Twitter */
 .fa-file-alt {
+  color: white;
+}
+
+footer {
   color: white;
 }
