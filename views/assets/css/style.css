@@ -1,5 +1,6 @@
 body {
   background-image: url(../images/background.jpg);
+  font: ;
 }
 
 #page-container {
@@ -12,6 +13,8 @@ body {
 }
 
 #footer {
+  opacity: 0.8;
+  background-color: #273B4D ;
   size: 10px;
   color: antiquewhite;
   text-align: center;
