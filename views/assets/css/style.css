@@ -1,5 +1,9 @@
 body {
   background-image: url(../images/background.jpg);
+  color: black;
+}
+.nav-item {
+  color: black;
 }
 
 #page-container {
