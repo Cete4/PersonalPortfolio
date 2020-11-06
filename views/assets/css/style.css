@@ -1,6 +1,5 @@
 body {
   background-image: url(../images/background.jpg);
-  font: ;
 }
 
 #page-container {
@@ -14,7 +13,7 @@ body {
 
 #footer {
   opacity: 0.8;
-  background-color: #273B4D ;
+  background-color: #273b4d;
   size: 10px;
   color: antiquewhite;
   text-align: center;
@@ -22,4 +21,35 @@ body {
   bottom: 0;
   width: 100%;
   height: 2.5rem; /* Footer height */
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+  color: white;
+}
+
+/* Facebook */
+.fa-github {
+  color: white;
+}
+
+/* Twitter */
+.fa-file-alt {
+  color: white;
 }
