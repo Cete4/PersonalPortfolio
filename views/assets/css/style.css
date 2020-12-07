@@ -18,6 +18,14 @@ body {
 .jumbotron {
   border-radius: 5px;
 }
+#bioImage {
+  height: 200;
+  width: auto;
+}
+#bio {
+  background-color: white;
+  border-radius: 5px;
+}
 
 .lead {
   text-align: center;
