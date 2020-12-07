@@ -7,5 +7,9 @@ router.get("/", function(req, res) {
   // By default send the user to the calender page
   res.sendFile(path.join(__dirname, "../views/index.html"));
 });
+router.get("/biography", function(req, res) {
+  // By default send the user to the calender page
+  res.sendFile(path.join(__dirname, "../views/biography.html"));
+});
 
 module.exports = router;
